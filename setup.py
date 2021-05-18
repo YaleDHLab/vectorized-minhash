@@ -3,7 +3,7 @@ import os, sys
 
 setup(
   name='vectorizedMinHash',
-  version='0.0.1',
+  version='0.0.2',
   packages=['vectorizedMinHash'],
   keywords = ['minhash', 'cuda', 'simhash', 'lsh'],
   description='Vectorized minhashing',
@@ -13,5 +13,8 @@ setup(
   license='MIT',
   install_requires=[
     'numpy==1.20.1',
-  ]
+  ],
+  package_data={
+    'vectorizedMinHash': ['*'],
+  },
 )
