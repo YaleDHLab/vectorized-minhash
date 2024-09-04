@@ -1,3 +1,6 @@
+# Note: This repository has been archived
+This branch was forked under a previous phase of the Yale Digital Humanities Lab. Now a part of Yale Library’s Computational Methods and Data department, the Lab no longer includes this branch in its scope of work. As such, it will receive no further updates.
+
 # vminhash
 A small toolkit for very efficiently comparing the similarity of large numbers of documents or other data structures that can be represented as sets. Core features:
 - Very fast construction of MinHash "fingerprints" of sets. The algorithm is inspired by the MinHash implementation in [datasketch](https://github.com/ekzhu/datasketch), but the core MinHash algorithm is vectorized in numpy and includes CUDA support via [cupy](https://cupy.chainer.org/).
